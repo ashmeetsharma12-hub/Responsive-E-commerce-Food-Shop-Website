@@ -1,0 +1,179 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    color: black;
+    font-family: 'Lobster', cursive;
+}
+.navbar-brand:hover { color: black; }
+
+.nav-link {
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Rubik', sans-serif;
+}
+.nav-link:hover { color: rgb(248, 26, 92); }
+
+.navbar-toggler { border: none; outline: none; }
+.navbar-toggler i { font-size: 2.5rem; color: black; }
+
+.search {
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -35px;
+    border: 2px solid rgb(248, 26, 92);
+    font-family: 'Rubik', sans-serif;
+}
+
+.btn0 {
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background: rgb(248, 26, 92);
+    color: white;
+    border-radius: 60px;
+    font-weight: 700;
+    font-family: 'Rubik', sans-serif;
+    cursor: pointer;
+}
+.btn0:hover { background: rgb(210, 10, 70); }
+
+.main {
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+    url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1600') no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+}
+.main h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    font-family: 'Lobster', cursive;
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
+}
+
+.btn1 {
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background: rgb(248, 26, 92);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+    font-family: 'Rubik', sans-serif;
+    cursor: pointer;
+    transition: background 0.5s;
+}
+.btn1:hover { background: rgb(210, 10, 70); }
+
+.new { padding: 50px 0; background: #f9f9f9; }
+.new img { width: 80px; margin-bottom: 10px; }
+.new h6 { font-family: 'Rubik', sans-serif; font-weight: 600; }
+
+.product { padding: 60px 0; }
+.card { transition: box-shadow 0.3s; cursor: pointer; }
+.card:hover { box-shadow: 0px 10px 30px rgba(0,0,0,0.15); }
+.card h6, .card p { font-family: 'Rubik', sans-serif; margin: 5px 0; }
+
+.about { padding: 60px 0; background: #f9f9f9; }
+.about h5 { font-family: 'Rubik', sans-serif; font-weight: 600; }
+.about p { font-family: 'Rubik', sans-serif; color: #555; }
+
+.shop { padding: 60px 0; }
+
+.apple {
+    background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+    url('https://images.unsplash.com/photo-1610832958506-aa56368176cf?w=1600') no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+    background-position: 50% 50%;
+    display: flex;
+    align-items: center;
+}
+.apple h6 {
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.apple h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: white;
+    font-family: 'Lobster', cursive;
+}
+.apple p {
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.1rem;
+}
+
+.contact { padding: 60px 0; background: #f9f9f9; }
+.contact h1 { font-family: 'Lobster', cursive; }
+.contact h6 { font-family: 'Rubik', sans-serif; }
+.contact p { font-family: 'Rubik', sans-serif; color: #555; margin: 4px 0; }
+.contact .form-control {
+    border: none;
+    border-bottom: 2px solid #ddd;
+    border-radius: 0;
+    font-family: 'Rubik', sans-serif;
+}
+.contact .form-control:focus {
+    box-shadow: none;
+    border-bottom: 2px solid rgb(248, 26, 92);
+}
+
+.news { background: black; padding-bottom: 20px; }
+.news h1 { font-family: 'Lobster', cursive; color: white; }
+.news p { font-family: 'Rubik', sans-serif; color: #aaa; margin: 4px 0; }
+.news h5 { font-family: 'Rubik', sans-serif; margin-bottom: 10px; }
+
+.news-input {
+    height: 45px;
+    width: 55%;
+    border-radius: 60px 0 0 60px;
+    outline: none;
+    border: 2px solid rgb(248, 26, 92);
+    padding-left: 20px;
+    font-family: 'Rubik', sans-serif;
+    background: #111;
+    color: white;
+}
+.news-input::placeholder { color: #aaa; }
+
+.btn2 {
+    height: 45px;
+    width: 120px;
+    outline: none;
+    border: none;
+    background: rgb(248, 26, 92);
+    color: white;
+    border-radius: 0 60px 60px 0;
+    font-weight: 700;
+    font-family: 'Rubik', sans-serif;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+.btn2:hover { background: rgb(210, 10, 70); }
+
+.social-icons i {
+    font-size: 2.5rem;
+    color: #aaa;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+.social-icons i:hover { color: rgb(248, 26, 92); }
